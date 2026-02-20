@@ -14,8 +14,8 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1A5C2A 0%, #0d3416 100%);
-            color: #fff;
+            background: linear-gradient(135deg, #F8F5EF 0%, #e8e3d9 100%);
+            color: #1A5C2A;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -60,7 +60,8 @@
             font-size: 42px;
             margin-bottom: 20px;
             font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            color: #1A5C2A;
+            text-shadow: none;
         }
 
         .subtitle {
@@ -74,16 +75,16 @@
             font-size: 18px;
             line-height: 1.6;
             margin-bottom: 30px;
-            color: #F8F5EF;
+            color: #333;
         }
 
         .info-box {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            background: #ffffff;
             border-radius: 15px;
             padding: 30px;
             margin: 30px 0;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 2px solid #1A5C2A;
+            box-shadow: 0 5px 20px rgba(26, 92, 42, 0.1);
         }
 
         .info-box h2 {
@@ -104,6 +105,7 @@
             align-items: center;
             gap: 10px;
             font-size: 16px;
+            color: #333;
         }
 
         .contact-item strong {
@@ -119,18 +121,19 @@
         }
 
         .service-tag {
-            background: rgba(200, 146, 10, 0.2);
+            background: #1A5C2A;
+            color: #fff;
             padding: 12px 20px;
             border-radius: 8px;
             font-size: 14px;
             font-weight: 600;
-            border: 1px solid #C8920A;
+            border: none;
         }
 
         .footer {
             margin-top: 40px;
             font-size: 14px;
-            color: rgba(255, 255, 255, 0.7);
+            color: #666;
         }
 
         .footer a {
@@ -193,8 +196,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- Logo temporaire -->
-        <div class="logo">NVD</div>
+        <img src="images/logo/logo-nvd.png" alt="Nouvelle Vision Durable Logo" style="width: 300px; height: auto; margin-bottom: 30px; display: block; margin-left: auto; margin-right: auto;">
 
         <!-- Titre principal -->
         <h1>Nouvelle Vision Durable</h1>
@@ -231,7 +233,7 @@
                 </div>
                 <div class="contact-item">
                     <strong>📧 Email :</strong>
-                    <span>contact@nouvelle-vision-durable-ci.com</span>
+                    <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="37545859435654437759584241525b5b521a415e445e58591a53424556555b521a545e1954585a">[email&#160;protected]</a></span>
                 </div>
                 <div class="contact-item">
                     <strong>📞 Téléphones :</strong>
@@ -247,7 +249,7 @@
         <!-- Footer -->
         <div class="footer">
             <p>© 2025 Nouvelle Vision Durable SARL - Tous droits réservés</p>
-            <p>Développé par <a href="https://w2k-digital.com" target="_blank">W2K-Digital</a></p>
+                  <p>Développé par <a href="https://w2k-digital.com" target="_blank">W2K-Digital</a></p>
         </div>
     </div>
 </body>
